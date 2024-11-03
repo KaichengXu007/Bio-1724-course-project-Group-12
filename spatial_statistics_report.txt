@@ -1,0 +1,10 @@
+Total accessible paths: 97586
+Path types distribution:
+highway
+footway       95840
+path           1474
+pedestrian      272
+Name: count, dtype: int64
+Spatial Autocorrelation (Moran's I): 0.534690990366433
+P-value: 0.001
+Getis-Ord G statistic (sample): 8.71796770729524e-05
