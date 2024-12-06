@@ -1,6 +1,9 @@
-# Bio-1724 Course Project Group 12
+# Seamless Route Navigation for Wheelchair Users in Toronto
+ECE1724H F3 (Fall) Special Topics in Software Engineering: Bio-inspired Algorithms for Smart Mobility
+Course Project - Group 12
 
-This repository is about the multimodal pathfinding solution developed for the Bio-1724 course project by Group 12. The project combines **Yen's K-Shortest Paths Algorithm** and **Genetic Algorithm (GA)** to find the optimal multimodal path in the Toronto transportation network involving **pedestrian paths** and **public transit**.
+## Authors
+Kaicheng Xu, Zhengan Du
 
 ## Project Overview
 This project aims to solve multimodal pathfinding problems by:
@@ -32,7 +35,7 @@ pip install -r requirements.txt
 
 ### Running the Code
 Ensure that your **network data** (e.g., `connected_network_cleaned.geojson`) is in the appropriate directory.
-Change the start_node and end_node variables to "u" or "v" value in the **network data** to find paths from start_node and end_node.
+Change the start_node and end_node variables to "u" or "v" values in the **network data** to find paths from start_node to end_node.
 To run the multimodal pathfinding solution, use the following command:
 
 ```
